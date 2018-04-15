@@ -902,7 +902,7 @@ button {
 .wrapper_experience {
     position: relative;
 
-    background: #b7cdf8;
+    background: rgba(183, 205, 248, .3);
 }
 .wrapper_experience:after {
     /*    position: absolute;
@@ -1061,7 +1061,7 @@ button {
 
     content: "";
 
-    border-left: 1px solid #203868;
+    border-left: .2rem solid #203868;
 }
 .demo-card:nth-child(odd):after {
     position: absolute;
@@ -1190,6 +1190,22 @@ button {
     -ms-flex-pack: center;
     justify-content: center;
 }
+
+#timeline .demo-card  .demo-card-content.ynov {
+    background: rgb(94, 196, 233);
+}
+
+
+#timeline .demo-card  .demo-card-content.doing {
+    background: rgb(124, 183, 3);
+}
+
+
+#timeline .demo-card  .demo-card-content.aluver {
+    background: rgb(0, 102, 179);
+}
+
+
 
 #timeline .demo-card-content-city {
     font-family: "Comfortaa", cursive;
