@@ -26,5 +26,17 @@ $(function() {
     }
     navScroll();
 
-    
+
+    $('.header-nav_responsive').click(function(event) {
+        elementHamburger = $(this);
+
+        $('.header-nav').toggleClass('header-nav_active');
+
+        if (!$(e.target).is(elementHamburger)) {
+            $('.header-nav').removeClass('header-nav_active')
+        }
+
+    });
+
+
 });
